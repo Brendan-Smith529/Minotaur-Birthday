@@ -16,7 +16,8 @@ The algorith goes as follows:
             1. Eat and replace
             2. Leave the cupcake
 
-    Regular:
+    Regular Guest:
+
         No cupcake:
             Do not replace even if you have not eaten yet
 
