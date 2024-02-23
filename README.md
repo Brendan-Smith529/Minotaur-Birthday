@@ -1,4 +1,4 @@
-#Minotaur Birthday Problems
+# Minotaur Birthday Problems
 
 There are two folders in this repository.
 
