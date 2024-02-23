@@ -1,19 +1,6 @@
 import multiprocessing as mp, time
 
-# Solution
-# Chosen One:
-#   Everytime you see a missing cupcake: increment by 1
-#   Whenever you don't: do nothing
-#   Eat cupcake during first run (req if needed), don't afterwards
-#
-# Not Chosen:
-#   If you see a cupcake missing: do not eat even if you haven't eaten
-#   If cupcake is there:
-#       If you have eaten: leave
-#       If you have not eaten: eat the cupcake; don't replace afterwards
-
 N_THREADS = 100
-
 
 # If the cupcake isn't there and this guest hasn't eaten they will:
 # have it replaced, eat it, then replace it again. Omitting unnecessary computation
